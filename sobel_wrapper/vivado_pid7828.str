@@ -1,0 +1,250 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 7828
+License: Customer
+
+Current time: 	Tue Nov 19 17:05:21 PST 2019
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 1
+
+Screen size: 1280x800
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 35 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Avishek Maitra
+User home directory: C:/Users/Avishek Maitra
+User working directory: C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Avishek Maitra/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Avishek Maitra/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Avishek Maitra/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper/vivado.log
+Vivado journal file location: 	C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper/vivado.jou
+Engine tmp dir: 	C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper/.Xil/Vivado-7828-DESKTOP-28Q484G
+
+GUI allocated memory:	122 MB
+GUI max memory:		3,066 MB
+Engine allocated memory: 471 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 35 MB (+34142kb) [00:00:25]
+// [Engine Memory]: 468 MB (+339245kb) [00:00:25]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Avishek Maitra\Desktop\CPE442\sobel_wrapper\sobel_wrapper.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 65 MB (+29701kb) [00:00:31]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 36 MB. Current time: 11/19/19 5:05:29 PM PST
+// [Engine Memory]: 493 MB (+1734kb) [00:00:40]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 70 MB (+1362kb) [00:00:45]
+// [Engine Memory]: 534 MB (+16872kb) [00:00:45]
+// [GUI Memory]: 83 MB (+10296kb) [00:00:50]
+// [Engine Memory]: 562 MB (+1341kb) [00:00:50]
+// Tcl Message: open_project {C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper/sobel_wrapper.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Avishek Maitra/Desktop/Fall2019/sobel_wrapper' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// Project name: sobel_wrapper; location: C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 558.043 ; gain = 71.289 
+// [GUI Memory]: 91 MB (+3600kb) [00:00:58]
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 577 MB. GUI used memory: 39 MB. Current time: 11/19/19 5:05:52 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 583 MB. GUI used memory: 39 MB. Current time: 11/19/19 5:06:02 PM PST
+// Elapsed time: 137 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bs (cj):  IP Catalog : addNotify
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("IP Catalog"); // bs (cj)
+// Elapsed time: 10 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField (P, cj)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 606 MB. GUI used memory: 41 MB. Current time: 11/19/19 5:12:37 PM PST
+// [Engine Memory]: 606 MB (+17068kb) [00:07:48]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 372 seconds
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // ad
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_FILE, "New File..."); // ac (cj, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_NEW_FILE
+dismissFileChooser();
+// 'c' command handler elapsed time: 5 seconds
+// PAPropertyPanels.initPanels (sobel_wrapper.sv) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sobel_wrapper (sobel_wrapper.sv)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sobel_wrapper (sobel_wrapper.sv)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sobel_wrapper (sobel_wrapper.sv)]", 2, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+// [GUI Memory]: 99 MB (+4310kb) [00:09:59]
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MEM_CTRL"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VerilogSourceFile_small ; 1 ; MEM_CTRL.v ; xil_defaultlib ; <Local to Project>", 0, "1", 1); // bC (O, c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 19 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open {C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper/sobel_wrapper.srcs/sources_1/new/MEM_CTRL.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs (cj):  Add Sources  : addNotify
+// Tcl Message: add_files {{C:/Users/Avishek Maitra/Desktop/CPE442/sobel_wrapper/sobel_wrapper.srcs/sources_1/new/MEM_CTRL.v}} 
+// I (cj): Define Module: addNotify
+dismissDialog("Add Sources"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 47 MB. Current time: 11/19/19 5:15:19 PM PST
+// Elapsed time: 118 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+// [Engine Memory]: 640 MB (+3092kb) [00:12:27]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK", 0, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 1, "Direction", 1); // ab (O, I)
+// Elapsed time: 69 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; output ; false ; 0 ; 0", 1, (String) null, 0); // ab (O, I)
+// Elapsed time: 109 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B_ADDR", 1, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B_ADDR ; output ; false ; 0 ; 0", 1, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B_ADDR ; output ; true ; 0 ; 0", 1, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "9", 1, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 2, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_A", 2, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_A ; input ; false ; 0 ; 0", 2, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_A ; output ; false ; 0 ; 0", 2, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_A ; output ; true ; 0 ; 0", 2, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 2, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 3, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_B", 3, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_B ; input ; false ; 0 ; 0", 3, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 3, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_B ; output ; false ; 0 ; 0", 3, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_B ; output ; true ; 0 ; 0", 3, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 3, "MSB", 3); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 4, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_C", 4, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_C ; input ; false ; 0 ; 0", 4, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 4, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_C ; output ; false ; 0 ; 0", 4, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "SEL_C ; output ; true ; 0 ; 0", 4, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 4, "MSB", 3); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+// [GUI Memory]: 108 MB (+3711kb) [00:16:14]
+// [GUI Memory]: 114 MB (+483kb) [00:16:19]
+// Elapsed time: 30 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 5, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_A", 5, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_A ; input ; false ; 0 ; 0", 5, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 5, "Direction", 1); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 74 MB. Current time: 11/19/19 5:21:51 PM PST
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 6, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_B", 6, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_B ; input ; false ; 0 ; 0", 6, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 6, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 7, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_B", 6, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 7, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_C", 7, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_C ; input ; false ; 0 ; 0", 7, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 7, "Direction", 1); // ab (O, I)
+// [GUI Memory]: 121 MB (+1753kb) [00:17:15]
+// Elapsed time: 69 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 8, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BRAM_EN_C", 7, "Port Name", 0); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 673 MB. GUI used memory: 86 MB. Current time: 11/19/19 5:23:16 PM PST
+// [Engine Memory]: 673 MB (+1584kb) [00:18:26]
+// Elapsed time: 13 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_FIFO", 8, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_FIFO ; input ; false ; 0 ; 0", 8, "input", 1); // ab (O, I)
+// [GUI Memory]: 129 MB (+1898kb) [00:18:36]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 8, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_FIFO ; input ; false ; 0 ; 0", 8, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 8, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 9, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_FIFO", 8, "Port Name", 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_ALU", 9, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_ALU ; input ; false ; 0 ; 0", 9, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 9, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 10, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_ALU", 9, "Port Name", 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_ALU ; output ; false ; 0 ; 0", 9, "EN_ALU", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 10, (String) null, 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; output ; false ; 0 ; 0", 9, (String) null, 0); // ab (O, I)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "EN_ALU", 9, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 10, (String) null, 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+// [GUI Memory]: 141 MB (+5976kb) [00:19:09]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 149 MB (+525kb) [00:19:55]
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
