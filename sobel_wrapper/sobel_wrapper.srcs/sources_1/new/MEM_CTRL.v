@@ -32,4 +32,14 @@ module MEM_CTRL(
     output EN_FIFO,
     output EN_ALU
     );
+ reg [3:0] state;
+ reg [3:0] nextState;
+ reg [9:0] count;
+ reg [9:0] overallCount;
+ 
+ always @ (posedge CLK)
+    state = nextState;
+    
+ always @ (state or count or overallCount)
+ 
 endmodule
